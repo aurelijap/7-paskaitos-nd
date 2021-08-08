@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+body {
+  font-family: 'News Cycle', sans-serif;
+  line-height: 1.1;
+  font-size: 16px;
+  padding: 20px;
+  background: rgb(240, 240, 240);
+}
+h1 {
+  color: #0974b3;
+}
+img {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: url(img/zoom.png), auto;
+}
+.item {
+  border-top: 5px solid #a5a9ac;
+  background: white;
+  overflow: hidden;
+  margin-right: 2%;
+  margin-bottom: 15px;
+  padding: 30px 20px;
+  float: left;
+  width: 30%;
+  transition: transform 0.6s;
+  cursor: pointer;
+}
+.item:hover {
+  border-top-color: rgb(13, 136, 207);
+  transform: translateY(-10px);
+}
+.tekstas {
+  color: #666;
+  display: inline;
+}
+.metai {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.nuoroda {
+  background: rgb(13, 136, 207);
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  border-radius: 15px 0 15px 0;
+  display: block;
+  text-decoration: none;
+}
+.nuoroda:hover {
+  background-color: rgb(9, 81, 175);
+}
+img:hover {
+  filter: brightness(50%);
+}
